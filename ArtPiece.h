@@ -25,9 +25,6 @@ struct ArtPiece {
     //File IO
     void serialize(ofstream& outputFile) const;
     void deserialize(ifstream & inFile);
-
-
-
 };
 
 
